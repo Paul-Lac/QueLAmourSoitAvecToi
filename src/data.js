@@ -1,28 +1,26 @@
-// import BenderImg from "./assets/bender.png";
-
 const charList = [
   {
     name: "Bender",
-    imageSRC: "public\bender.png",
-    desc: "Un robot sarcastique avec une personnalité anticonformiste, il dévie de sa programmation initiale pour mener une vie pleine d'excès. Physiquement, il a une forme métallique avec des bras en pince et des yeux en fente. Alimenté par de l'alcool, il est connu pour ses commentaires cinglants et son attachement ambigu à l'humanité.",
+    imageSRC: "./bender.png",
+    desc: "Plutôt sarcastique, anticonformiste, et assoiffé d'excès ? Choisis le robot rebelle.",
     id: 1,
   },
   {
     name: "Lara Croft",
-    imageSRC: "../public/lara-croft.png",
-    desc: "Connue pour son intelligence, sa force physique et ses compétences en tir. Physiquement, elle est souvent représentée avec une silhouette athlétique, des cheveux bruns et ses pistolets jumeaux. Elle est une figure emblématique du monde du jeu vidéo depuis sa première apparition en 1996.",
+    imageSRC: "./lara-croft.png",
+    desc: "L'intelligence et la force, c'est tout toi ! Incarne une héroïne emblématique de jeux vidéos.",
     id: 2,
   },
   {
     name: "Heisenberg",
-    imageSRC: "./assets/heisenberg.png",
-    desc: "Personnage principal d'une série, professeur de chimie transformé en fabricant de méthamphétamine en raison d'un cancer. Son évolution va d'un homme timide à un criminel impitoyable. Physiquement, il a des cheveux rasés et une barbe, reflétant son changement. Il est connu pour son intelligence et son attitude impitoyable.",
+    imageSRC: "./heisenberg.png",
+    desc: "Fasciné par les métamorphoses de personnalité ? Deviens le sage professeur de chimie transformé en criminel impitoyable.",
     id: 3,
   },
   {
     name: "Dark Vador",
-    imageSRC: "src/assets/dark-vador.png",
-    datePlace: "src/assets/dark-vador-date.jpg",
+    imageSRC: "./dark-vador.png",
+    datePlace: "./dark-vador-date.jpg",
     id: 4,
     questions: [
       {
@@ -53,8 +51,8 @@ const charList = [
   },
   {
     name: "R2D2",
-    imageSRC: "src/assets/r2d2.png",
-    datePlace: "src/assets/r2d2-date.png",
+    imageSRC: "./r2d2.png",
+    datePlace: "./r2d2-date.png",
     id: 5,
     questions: [
       {
@@ -84,8 +82,8 @@ const charList = [
   },
   {
     name: "Princesse Leia",
-    imageSRC: "src/assets/princesse-leia.png",
-    datePlace: "src/assets/leia-date.png",
+    imageSRC: "./princesse-leia.png",
+    datePlace: "./leia-date.png",
     id: 6,
     questions: [
       {
@@ -116,7 +114,7 @@ const charList = [
   },
   {
     name: "Personnage mystère",
-    imageSRC: "../src/assets/mystere.png",
+    imageSRC: "./mystere.png",
     datePlace: "",
     id: 7,
   },
